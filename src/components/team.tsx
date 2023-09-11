@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className="px-[12rem] bg-[#f8fdfd] py-20 w-full" id='team'>
+    <div className="px-[2rem] lg:px-[12rem] bg-[#f8fdfd] py-20 w-full" id='team'>
       <h1 className="text-[2.5rem] text-center leading-[4rem] text-shadow-sm font-[800] tracking-widest py-2">
         My Team
       </h1>
@@ -13,7 +13,7 @@ const Team = () => {
       <div className="flex items-stretch mt-14 flex-wrap">
         {
           members.map((mem, i) =>
-            <div key={i} className="w-1/4 mb-14 px-3">
+            <div key={i} className="md:w-1/4 w-full sm:w-1/2 mb-14 px-3">
               <div className="rounded-3xl shadow-lg bg-white text-center border">
                 <Image src={mem.image} alt='' height={500} width={500} className="rounded-[2rem]" />
                 <div className="mt-3 mb-4">

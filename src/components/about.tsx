@@ -1,14 +1,14 @@
-import { faChevronRight, faEnvelope, faHandPointRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex pt-20 items-center pb-20 gap-[5rem] px-[12rem]" id='about'>
-      <div className="w-1/2">
+    <div className="flex flex-wrap pt-16 items-center pb-20 px-[2rem] lg:px-[12rem]" id='about'>
+      <div className="md:w-[60%] m-auto mt-20 lg:mt-0 lg:w-1/2  relative md:pr-10">
         <Image src='/workspace.jpg' alt='' width={1000} className="rounded-3xl" height={1000} />
       </div>
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2 mt-20 lg:mt-0 md:pl-10">
         <h1 className="text-[3rem] leading-[4rem] text-shadow-sm font-[800] tracking-widest py-2">
           About Me
         </h1>

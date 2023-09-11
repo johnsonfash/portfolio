@@ -6,7 +6,7 @@ import { openSource, portfolioList } from "@/lib/data";
 
 const Portfolio = () => {
   return (
-    <div className="px-[12rem] bg-[#f8fdfd] py-20 w-full" id='projects'>
+    <div className="px-[2rem] lg:px-[12rem] bg-[#f8fdfd] py-20 w-full" id='projects'>
       <h2 className="text-[2.5rem] text-shadow-md tracking-widest">Projects</h2>
       <p className="text-lg">
         Collections of some of out recent projects for {new Date().getFullYear()}.
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="flex items-stretch mt-14 flex-wrap">
         {
           portfolioList.map((item, i) =>
-            <div key={i} className="w-1/3 mb-14 px-3">
+            <div key={i} className="md:w-1/3 w-full mb-14 px-3">
               <div className="rounded-3xl shadow-lg px-4 py-4 bg-white text-center relative border">
                 <div className="relative flex justify-center mb-6">
                   <div className="absolute top-[-3rem] text-6xl">
@@ -55,7 +55,7 @@ const Portfolio = () => {
       <div className="flex items-stretch mt-14 flex-wrap">
         {
           openSource.map((item, i) =>
-            <div key={i} className="w-1/3 mb-14 px-3">
+            <div key={i} className="md:w-1/3 w-full mb-14 px-3">
               <div className="rounded-3xl shadow-lg px-4 py-4 bg-white text-center relative border">
                 <div className="relative flex justify-center mb-6">
                   <div className="absolute top-[-3rem] text-6xl">

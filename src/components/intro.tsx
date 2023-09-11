@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="flex items-center gap-[5rem] pt-16 px-[12rem]">
-      <div className="w-1/2">
+    <div className="flex items-center flex-wrap pt-16 px-[2rem] lg:px-[12rem]">
+      <div className="w-full lg:w-1/2 md:pr-10">
         <h1 className="text-[4rem] leading-[5rem] text-shadow-lg font-[800] tracking-widest py-2">
           Creating value <br />
           with <FontAwesomeIcon icon={faCode} /> <br />
@@ -20,7 +20,7 @@ const Intro = () => {
           </span>
         </a>
       </div>
-      <div className="w-1/2 relative">
+      <div className="md:w-[60%] m-auto mt-20 lg:mt-0 lg:w-1/2  relative md:pl-10">
         <Image src='/tosin-purple-whte-purple.png' alt='' width={1000} height={1000} />
       </div>
     </div>
