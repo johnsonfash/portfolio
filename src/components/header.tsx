@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faWhatsapp, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 const Header = () => {
-  return <div className="bg-white flex-wrap z-10 border-b top-0 left-0 right-0 fixed flex w-full px-20 py-3 justify-between items-center">
+  return <div className="bg-white flex-wrap z-10 border-b top-0 left-0 right-0 fixed flex w-full px-[2rem] lg:px-[12rem] py-3 justify-between items-center">
     <div>
       <h1 className="text-[1.4rem] text-shadow-sm font-[800] tracking-widest py-2">JOHNFASH</h1>
     </div>
