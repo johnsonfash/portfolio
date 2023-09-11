@@ -6,7 +6,6 @@ import { openSource, portfolioList } from "@/lib/data";
 
 const Portfolio = () => {
   return (
-    // <div className="px-[12rem] bg-white py-20 w-full">
     <div className="px-[12rem] bg-[#f8fdfd] py-20 w-full" id='projects'>
       <h2 className="text-[2.5rem] text-shadow-md tracking-widest">Projects</h2>
       <p className="text-lg">
