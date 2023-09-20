@@ -4,7 +4,7 @@ import { faLinkedin, faWhatsapp, faGithub, faInstagram } from '@fortawesome/free
 const Header = () => {
   return <div className="bg-white flex-wrap z-10 border-b top-0 left-0 right-0 fixed flex w-full px-[2rem] lg:px-[12rem] py-3 justify-between items-center">
     <div className="w-full sm:w-auto text-center">
-      <h1 className="text-[1.4rem] text-shadow-sm font-[800] tracking-widest py-2">JOHNFASH</h1>
+      <h1 className="text-[1.4rem] text-shadow-sm font-[800] tracking-widest pb-2">JOHNFASH</h1>
     </div>
     <div className="w-full sm:w-auto text-center">
       <Link href='/' className="pr-3 md:pr-6 sm:pl-3 md:pl-6 py-3">Home</Link>
