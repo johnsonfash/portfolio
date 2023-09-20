@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className="flex items-center flex-wrap pt-16 px-[2rem] lg:px-[12rem]">
       <div className="w-full lg:w-1/2 md:pr-10">
-        <h1 className="text-[3rem] md:text-[4rem] leading-[5rem] text-shadow-md md:text-shadow-lg font-[800] tracking-widest py-2">
+        <h1 className="text-[3rem] md:text-[4rem]  md:leading-[5rem] text-shadow-md md:text-shadow-lg font-[800] tracking-widest py-2">
           Creating value <br />
           with <FontAwesomeIcon icon={faCode} /> <br />
         </h1>
