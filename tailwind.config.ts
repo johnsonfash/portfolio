@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       textShadow: {
-        sm: '1px 0px, 2px 0px',
-        md: '1px 0px, 2px 0px, 3px 0px',
-        lg: '1px 0px, 2px 0px, 3px 0px, 4px 0px',
+        sm: '1px 0px, 2px 1px',
+        md: '1px 2px, 2px 1px, 2px 0px',
+        lg: '1px 2px, 2px 0px, 3px 2px, 4px 1px',
       },
     },
   },
